@@ -1,0 +1,90 @@
+
+.atop{
+    display: flex;
+    flex-direction: row;
+      background-color: hsl(0, 0%, 95%);
+      margin-top: 10vw; 
+      margin-left: 3vw;
+      color:hsla(0, 0%, 100%, 0.75);
+      font-size: 15px;
+
+    } 
+    .atop > div {
+      width: 30vw;
+      line-height: 50px;
+      font-size: 25px; 
+    }
+    .block1{
+        background-color:hsl(31, 77%, 52%);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius:5px ;
+        justify-content: center;
+    }
+    .block2{
+        background-color: hsl(184, 100%, 22%);
+    }
+    .block3{
+        background-color: hsl(179, 100%, 13%);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius:5px ;
+
+    }
+    @media (max-width: 800px) {
+      .block-1{
+      
+        width: 98% !important;
+        
+        
+      }
+      .block3{
+        border-radius: 0px 0px 10px 10px;
+      }
+      .block1{
+        border-radius: 10px 10px  0px 0px;
+      }
+  
+      .atop{
+        flex-direction: column;
+        
+      }
+      
+    }
+    .block-1{
+      
+      padding-top: 10px;
+    }
+    .buton{
+      border: 3px solid hsla(0, 0%, 100%, 0.75);
+      border-radius: 20px;
+      color: hsl(31, 77%, 52%);
+      font-size:medium;
+      
+    }
+    .buton1{
+      border: 3px solid hsla(0, 0%, 100%, 0.75);
+      border-radius: 20px;
+      color:hsl(184, 100%, 22%);
+      font-size:medium;
+    }
+
+    .buton2{
+      border: 3px solid hsla(0, 0%, 100%, 0.75);
+      border-radius: 20px;
+      color:hsl(179, 100%, 13%);
+      font-size:medium;
+    }
+    .buton:hover{
+      background-color:hsl(31, 77%, 52%);
+      color: hsla(0, 0%, 100%, 0.75);;
+    }
+    .buton1:hover{
+      background-color:hsl(184, 100%, 22%);
+      color: hsla(0, 0%, 100%, 0.75);;
+    }
+    .buton2:hover{
+      background-color:hsl(179, 100%, 13%);
+      color: hsla(0, 0%, 100%, 0.75);;
+    }
+    
+    
+      
